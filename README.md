@@ -89,12 +89,17 @@ http://127.0.0.1:8000/docs
   4.The saved model will be placed in saved_model/
 
 5.API Usage Example
-  Endpoint: POST /predict
-  Content-Type: multipart/form-data
-  Form field: file (upload a leaf image: .jpg, .png, etc.)
-  Example with curl:
-  <img width="482" height="166" alt="image" src="https://github.com/user-attachments/assets/133c74dd-131f-4928-8312-1cad298ff425" />
-  <img width="596" height="258" alt="image" src="https://github.com/user-attachments/assets/4da5000a-09c6-47f0-ab06-350b677be32a" />
+  
+    1.Endpoint: POST /predict
+    
+    2.Content-Type: multipart/form-data
+    
+    3.Form field: file (upload a leaf image: .jpg, .png, etc.)
+
+Example with curl:
+
+<img width="482" height="166" alt="image" src="https://github.com/user-attachments/assets/133c74dd-131f-4928-8312-1cad298ff425" />
+<img width="596" height="258" alt="image" src="https://github.com/user-attachments/assets/4da5000a-09c6-47f0-ab06-350b677be32a" />
   
 5.Performance Notes
   Typical results on this dataset (depending on architecture, augmentation, and splits):
